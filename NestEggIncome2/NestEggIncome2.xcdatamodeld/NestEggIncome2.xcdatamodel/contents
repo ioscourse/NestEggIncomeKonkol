@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13A603" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Tbldividends" syncable="YES">
+        <attribute name="apr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aug" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dec" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="feb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jul" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jun" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="may" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nov" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oct" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sep" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shares" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="symbol" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tblfix" syncable="YES">
+        <attribute name="apr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aug" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dec" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="feb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jul" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jun" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="may" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nov" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oct" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paymentamount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sep" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tblinterest" syncable="YES">
+        <attribute name="apr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aug" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="balance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dec" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="feb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jul" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jun" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="may" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nov" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oct" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paymentsperyear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sep" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalinterest" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Tbldividends" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Tblfix" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Tblinterest" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
