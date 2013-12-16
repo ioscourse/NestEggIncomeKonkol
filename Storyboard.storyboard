@@ -26,6 +26,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="rBa-Qo-aVN" kind="modal" id="hMg-5B-O3j"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bird_120.png" translatesAutoresizingMaskIntoConstraints="NO" id="5aj-6J-jOv">
                                 <rect key="frame" x="11" y="9" width="90" height="83"/>
@@ -74,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3ZP-Bc-Cub" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1275" y="-1668"/>
+            <point key="canvasLocation" x="-1870" y="-1992"/>
         </scene>
         <!--Interest Update View Controller - InterestUpdate-->
         <scene sceneID="ul3-lh-Z6R">
@@ -371,7 +374,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VJW-3Y-mOA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="235" y="-1020"/>
+            <point key="canvasLocation" x="-360" y="-1344"/>
         </scene>
         <!--Dividend Update View Controller - DividendUpdate-->
         <scene sceneID="xJm-eE-rAV">
@@ -625,7 +628,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uth-Bs-wRW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255" y="-358"/>
+            <point key="canvasLocation" x="-340" y="-682"/>
         </scene>
         <!--Intructions View Controller - Instructions-->
         <scene sceneID="bpb-Of-5SU">
@@ -639,10 +642,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="description and how to use" translatesAutoresizingMaskIntoConstraints="NO" id="qOl-nO-uh9">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qOl-nO-uh9">
                                 <rect key="frame" x="0.0" y="64" width="320" height="505"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Description and how to use:  Forecast monthly fixed income and interest totals.  1) Month Selector: Select Month  2) Summary:      Enter values for fixed Payment and Interest.      In addition, view total summary on month     selected.  Future additions are Dividends and Totals  </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -652,7 +656,11 @@
                                 <color key="barTintColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="How To" id="xoX-FK-cbx">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="hDs-E4-GrT"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="hDs-E4-GrT">
+                                            <connections>
+                                                <segue destination="4Vy-o5-dcr" kind="modal" id="ZgB-9p-wkv"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -662,7 +670,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eUw-xR-bl0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-935" y="-979"/>
+            <point key="canvasLocation" x="-1576" y="-1330"/>
         </scene>
         <!--Interest Report Master View Controller - Interest Report-->
         <scene sceneID="nYm-54-bfg">
@@ -674,7 +682,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="sxp-X7-69r" detailTextLabel="bHJ-ay-vcp" style="IBUITableViewCellStyleValue1" id="jmm-kY-5JE">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jmm-kY-5JE" id="aVX-Gm-63P">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -729,7 +737,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S0n-Sr-VgD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-128" y="-1011"/>
+            <point key="canvasLocation" x="-723" y="-1335"/>
         </scene>
         <!--Summary View Controller - Summary-->
         <scene sceneID="1l1-V7-2GG">
@@ -811,7 +819,7 @@
                                 <color key="textColor" red="0.88235294119999996" green="0.18823529410000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$999,999,999.99" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CW8-WE-wqB">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$0.00" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CW8-WE-wqB">
                                 <rect key="frame" x="159" y="179" width="150" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -819,7 +827,7 @@
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$999,999,999.99" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eMf-P9-cqU">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$0.00" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eMf-P9-cqU">
                                 <rect key="frame" x="159" y="292" width="150" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -827,7 +835,7 @@
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$999,999,999.99" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QDW-Xt-U3M">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$0.00" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QDW-Xt-U3M">
                                 <rect key="frame" x="11" y="292" width="150" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -960,7 +968,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w6o-wg-gG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-871" y="-1668"/>
+            <point key="canvasLocation" x="-1466" y="-1992"/>
         </scene>
         <!--Fixed Report Master View Controller - Fixed Report-->
         <scene sceneID="ot6-uo-xZd">
@@ -972,7 +980,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="vud-8S-gR4" detailTextLabel="THZ-DW-B9F" style="IBUITableViewCellStyleValue1" id="fI3-BK-9kj">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fI3-BK-9kj" id="zqY-AM-5vU">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -1034,7 +1042,7 @@
                     </items>
                 </navigationBar>
             </objects>
-            <point key="canvasLocation" x="-138" y="-1675"/>
+            <point key="canvasLocation" x="-733" y="-1999"/>
         </scene>
         <!--Fixed Updates View Controller - FixedUpdate-->
         <scene sceneID="X6L-md-erI">
@@ -1364,7 +1372,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOh-ng-1eX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="227" y="-1675"/>
+            <point key="canvasLocation" x="-368" y="-1999"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6g3-Qe-dVf">
@@ -1383,7 +1391,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ms6-Hp-69G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-504" y="-1675"/>
+            <point key="canvasLocation" x="-1099" y="-1999"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bD1-TS-BFV">
@@ -1405,7 +1413,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w1Y-xm-eri" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-504" y="-1011"/>
+            <point key="canvasLocation" x="-1099" y="-1335"/>
         </scene>
         <!--Dividend Report View Controller - Dividend Report-->
         <scene sceneID="GY4-C1-XYC">
@@ -1417,7 +1425,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="lgc-Kp-aSl" detailTextLabel="xRl-R4-C8V" style="IBUITableViewCellStyleValue1" id="kYJ-un-pa9">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kYJ-un-pa9" id="JrJ-G6-rQw">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -1472,7 +1480,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h3l-hl-kwV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-106" y="-342"/>
+            <point key="canvasLocation" x="-701" y="-666"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hRi-kk-xkk">
@@ -1490,7 +1498,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T9q-NU-Eth" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-486" y="-342"/>
+            <point key="canvasLocation" x="-1081" y="-666"/>
         </scene>
     </scenes>
     <resources>
@@ -1505,9 +1513,10 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ZQK-p0-dz2"/>
-        <segue reference="A0X-Y2-ztC"/>
-        <segue reference="vMB-Bt-951"/>
+        <segue reference="ZgB-9p-wkv"/>
+        <segue reference="93P-SS-Ek4"/>
         <segue reference="mFo-CX-5a6"/>
+        <segue reference="A0X-Y2-ztC"/>
+        <segue reference="JDU-Fc-VDh"/>
     </inferredMetricsTieBreakers>
 </document>

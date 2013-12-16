@@ -43,7 +43,7 @@
 {
     [super viewDidAppear:animated];
     [self loadfixedtotals];
-    //[self loadInterest];
+    [self loadInterest];
 }
 - (void)didReceiveMemoryWarning
 {
@@ -81,7 +81,9 @@
 - (void) loadInterest
 {
     NSString *MpaymentAmount;
-    double totalb=0;
+    NSString *MpaymentAmounti;
+    double totali=0;
+     double totalb=0;
     // Fetch the devices from persistent data store
     NSManagedObjectContext *managedObjectContext = [self managedObjectContext];
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Tblinterest"];
@@ -90,17 +92,20 @@
     for (NSObject* o in objects)
     {
         NSLog(@"%@",o);
-        txtFixed.text = [o valueForKeyPath:strMonthAbbrev];
-        MpaymentAmount = [o valueForKeyPath:@"paymentsperyear"];
-        if ([txtFixed.text doubleValue] == 1)
+        txtInterestIncome.text = [o valueForKeyPath:strMonthAbbrev];
+        MpaymentAmount = [o valueForKeyPath:@"totalinterest"];
+         MpaymentAmounti = [o valueForKeyPath:@"balance"];
+        if ([txtInterestIncome.text doubleValue] == 1)
         {
             totalb=totalb +[MpaymentAmount doubleValue];
+             totali=totali +[MpaymentAmounti doubleValue];
         }
         
     }
     // matches = objects[0];
     // totalbalance.text = [matches valueForKeyPath:@"balanceinput"];
-    txtFixed.text = [NSString stringWithFormat:@"%.2f",totalb];
+    txtInterestIncome.text = [NSString stringWithFormat:@"%.2f",totalb];
+    txtInterestBalance.text = [NSString stringWithFormat:@"%.2f",totali];
     txtSummary.text=strMonthTitle;
     NSLog(@"totalbalance: %f", totalb);
 }

@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B64B46F5-1403-4EF1-970F-4E023F388E12</string>
+	<string>C5F47D12-9827-405F-A7AA-4CD96DD4E601</string>
 	<key>IDESourceControlProjectName</key>
 	<string>NestEggIncome2</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D74A2661-ADFB-4CF3-97ED-D139B4ACB53A</key>
-		<string>https://github.com/ioscourse/NestEggIncome.git</string>
+		<key>3DAAA014-2420-4B56-BA8B-3ABBBC21F6DF</key>
+		<string>https://github.com/ioscourse/NestEggIncomeKonkol.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>NestEggIncome2.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D74A2661-ADFB-4CF3-97ED-D139B4ACB53A</key>
+		<key>3DAAA014-2420-4B56-BA8B-3ABBBC21F6DF</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ioscourse/NestEggIncome.git</string>
+	<string>https://github.com/ioscourse/NestEggIncomeKonkol.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D74A2661-ADFB-4CF3-97ED-D139B4ACB53A</string>
+	<string>3DAAA014-2420-4B56-BA8B-3ABBBC21F6DF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D74A2661-ADFB-4CF3-97ED-D139B4ACB53A</string>
+			<string>3DAAA014-2420-4B56-BA8B-3ABBBC21F6DF</string>
 			<key>IDESourceControlWCCName</key>
-			<string>NestEggIncome</string>
+			<string>NestEggIncomeKonkol</string>
 		</dict>
 	</array>
 </dict>
