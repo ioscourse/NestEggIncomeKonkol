@@ -120,6 +120,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12E193E218609781008EF3CF /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		D90AE019183ADC9F00D0ACAA = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +181,7 @@
 		D90AE02D183ADC9F00D0ACAA /* NestEggIncome2 */ = {
 			isa = PBXGroup;
 			children = (
+				12E193E218609781008EF3CF /* iPad */,
 				D90AE036183ADC9F00D0ACAA /* NestEggIncome2AppDelegate.h */,
 				D90AE037183ADC9F00D0ACAA /* NestEggIncome2AppDelegate.m */,
 				D90AE03C183ADC9F00D0ACAA /* Images.xcassets */,
@@ -464,7 +472,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NestEggIncome2/NestEggIncome2-Prefix.pch";
 				INFOPLIST_FILE = "NestEggIncome2/NestEggIncome2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -478,7 +488,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NestEggIncome2/NestEggIncome2-Prefix.pch";
 				INFOPLIST_FILE = "NestEggIncome2/NestEggIncome2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
